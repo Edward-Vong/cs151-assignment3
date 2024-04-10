@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">       
+    <children>
+        <ImageView fitWidth="200" fitHeight="200" preserveRatio="true">
+            <image>
+                <Image url="@smile.png"/>
+            </image>
+        </ImageView>
+
+        <Text text="Smile Network Service" style="-fx-font-size: 24px;" />
+
+        <Button text="Signup" fx:id="signupButton" minWidth="100"/>
+        <Button text="Login" fx:id="loginButton" minWidth="100"/>
+    </children>
+ 
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+</VBox>
