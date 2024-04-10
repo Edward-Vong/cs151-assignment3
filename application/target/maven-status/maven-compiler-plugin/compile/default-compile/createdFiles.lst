@@ -1,2 +1,4 @@
-assignment\App.class
 module-info.class
+assignment\StartController.class
+assignment\App.class
+assignment\SignupController.class
