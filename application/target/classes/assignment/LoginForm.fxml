@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="10"
+    fx:controller="assignment.LoginFormController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <children>
+        <Text text="Login" style="-fx-font-size: 20px;" />
+        <TextField fx:id="usernameField" promptText="Username" maxWidth="200.0"/>
+        <PasswordField fx:id="passwordField" promptText="Password" maxWidth="200.0"/>
+        <Button text="Login" minWidth="100" onAction="#handleLogin"/>
+        <Text fx:id="loginMessage" fill="RED"/>
+        <Button text="Back" fx:id="back" minWidth="50" onAction="#back"/>
+    </children>
+</VBox>
